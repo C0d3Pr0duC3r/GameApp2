@@ -1,0 +1,41 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;1,600&display=swap');
+
+
+* {
+    box-sizing: border-box;
+}
+
+
+
+#output-content{
+    border: 1px solid black;
+    width: 400px;
+    height: 400px;
+    overflow-y: auto;
+}
+
+#stat-content{
+    border: 1px solid black;
+    width: 400px;
+    height: 400px;
+    overflow-y: auto;
+}
+
+h1{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
+body{
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    min-height: 50vh;
+    display: flex;         /* Turns body into a flex container */
+    flex-direction: row;   
+    align-items: center;        /* Aligns boxes to start of cross axis (top, in this case) */
+    position: relative;
+}
